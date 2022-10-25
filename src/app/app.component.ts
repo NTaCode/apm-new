@@ -4,7 +4,7 @@ import { Component } from "@angular/core";
   selector:'pm-root',
   template: `
   <div><h1>{{pageTitle}}</h1>
-  <div> My first Component</div>
+  <pm-products></pm-products>
 </div>
 `
 })
@@ -12,5 +12,5 @@ import { Component } from "@angular/core";
 export class AppComponent {
 
   pageTitle: string ='Acme Product Managmeent';
-  
+
 }
